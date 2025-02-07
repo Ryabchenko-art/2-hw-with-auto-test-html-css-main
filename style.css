@@ -4,30 +4,45 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
 
 header {
-    /* Стили для хедера */
+    background: #2965f1;
+    width: 1440px;
+    height: 70px;
+    padding: 23px 0;
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
 .main-section {
-    /* Стили для первой секции */
+    background: #fafaff;
+    padding: 60px;
+    min-height: 100vh;
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
 
 
